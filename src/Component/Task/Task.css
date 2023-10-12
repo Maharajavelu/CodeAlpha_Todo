@@ -1,0 +1,81 @@
+.task-container , .no-task{
+    width: 400px;
+    margin: 20px;
+    color:#110202;
+    padding: 12px;
+    border-radius: 10px;
+    border: 1px solid white;
+    box-shadow: 0 2px 4px #00000033;
+    position: relative;
+    background-color: #b0dde4;
+    box-shadow: grey 0px 1px 2px 1px;
+    /* font-family:Tahoma; */
+}
+.no-task p{
+    font-family: 'Times New Roman', Times, serif;
+    height: 30px;
+    width: 30px;
+}
+.task-title {
+     margin: 2px;
+    color:#090203;
+    font-weight: bold;
+}
+
+
+.task-discription {
+    margin: 5px;
+}
+
+.task-priority {
+    margin: 0;
+    position: absolute;
+    width: 65px;
+    text-align: center;
+    right: 0;
+    top: 0;
+    background-color: #f2156a;
+    color: #fff;
+    padding: 4px;
+    border-radius:0 9px 0 5px;
+    margin-bottom: 4px;
+    font-size: 12px;
+}
+.High{
+    background-color: red;
+    text-transform: uppercase;
+}
+.Moderate{
+    background-color: rgb(255, 162, 0);
+    text-transform: uppercase;
+}
+.Low{
+    background-color: rgb(42, 175, 57);
+    text-transform: uppercase;
+}
+.task-delete-icon{
+    position: absolute;
+    bottom: 0;
+    right: 10px;
+    cursor: pointer;
+    /* background-color: rgb(21, 0, 255); */
+    padding: 4px;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.task-edit-icon{
+    position: absolute;
+    bottom: 0px;
+    right: 103px;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 4px;
+    border-radius: 3px;
+    /* background-color: rgb(0, 13, 255); */
+}
+
+.no-task-message{
+    width: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
